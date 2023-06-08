@@ -49,6 +49,13 @@
 
     ];
 
-?>
+    ?>
+<pre>
+    <?php 
+    var_dump( $hotels );
+    ?>
+
+</pre>
+
 </body>
 </html>
