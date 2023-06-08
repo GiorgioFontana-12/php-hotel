@@ -50,12 +50,17 @@
     ];
 
     ?>
-<pre>
-    <?php 
-    var_dump( $hotels );
-    ?>
+    
 
-</pre>
+
+<div>
+        <?php foreach ($hotels as $hotel) { ?>
+            <?php foreach($hotel as $key => $value) { ?> 
+                <h4><?php echo "$key: $value" ?></h4>
+            <?php } ?>
+            <br> 
+        <?php } ?> 
+    </div>
 
 </body>
 </html>
